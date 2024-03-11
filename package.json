@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/noor4apps/ethereum-info/issues"
   },
-  "homepage": "https://github.com/noor4apps/ethereum-info#readme"
+  "homepage": "https://github.com/noor4apps/ethereum-info#readme",
+  "dependencies": {
+    "web3": "^4.6.0"
+  }
 }
