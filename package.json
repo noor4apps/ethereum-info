@@ -1,0 +1,22 @@
+{
+  "name": "@noor4app/ethereum-info",
+  "version": "1.0.0",
+  "description": "Interacting with Ethereum and the USDT smart contract",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noor4apps/ethereum-info.git"
+  },
+  "keywords": [
+    "web3",
+    "ethereum"
+  ],
+  "author": "MhdNoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noor4apps/ethereum-info/issues"
+  },
+  "homepage": "https://github.com/noor4apps/ethereum-info#readme"
+}
