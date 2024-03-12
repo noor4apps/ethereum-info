@@ -2,6 +2,7 @@
   "name": "@noor4app/ethereum-info",
   "version": "1.0.1",
   "description": "Interacting with Ethereum and the USDT smart contract",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
