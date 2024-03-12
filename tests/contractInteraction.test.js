@@ -12,9 +12,6 @@ jest.mock('web3', () => {
                     },
                 })),
             },
-            utils: {
-                fromWei: jest.fn().mockReturnValue('1'), // Mocking the return value of fromWei
-            },
         };
     });
 });
@@ -26,6 +23,6 @@ describe('getTokenBalance', () => {
         const tokenContract = 'your_token_contract_address';
 
         const balance = await getTokenBalance(holder, INFURA_API_KEY, tokenContract);
-        expect(balance).toBe('1');
+        expect(balance).toBe('10');
     });
 });
